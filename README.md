@@ -1,2 +1,4 @@
 # CW1-individual
-Web-based Mobile App Development - Individual Coursework 1
+Individual Coursework 1
+CST-3145-C01 
+Web-Based Mobile App Development
