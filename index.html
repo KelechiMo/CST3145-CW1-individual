@@ -50,7 +50,8 @@
                   <button class="course__btn" @click="addToCart(lesson)" :disabled="lesson.space < 1">Add to cart</button>
                 </div>
           </div>
-          <router-link to="/cart">View Cart</router-link>
+          <button class="cart__btn" @click="$router.push('/cart')" :disabled="cart.length < 1">View Cart</button>
+          <!-- <router-link to="/cart">View Cart</router-link> -->
       </section>
     </script>
 

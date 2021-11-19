@@ -78,6 +78,20 @@ h3 {
   font-size: 1rem;
 }
 
+.cart__btn {
+  background-color: rgba(59, 59, 253, 1);
+  border: none;
+  color: #fff;
+  width: max-content;
+  padding: 0.9rem;
+  margin: 1.5rem auto 0;
+  font-size: 1rem;
+}
+
+.cart__btn:disabled {
+  background-color: grey;
+}
+
 .course__btn:active {
   transform: scale(0.95);
   cursor: pointer;

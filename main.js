@@ -14,6 +14,9 @@ const Home = {
     lessons() {
       return this.$store.state.lessons
     },
+    cart() {
+      return this.$store.state.cart
+    }
   },
   methods: {
     addToCart(item) {
@@ -167,7 +170,7 @@ const store = new Vuex.Store({
 
 // Route
 const routes = [
-  {path: "/index.html", component: Home},
+  {path: "/", component: Home},
   {path: "/cart", component: Cart},
 ]
 
