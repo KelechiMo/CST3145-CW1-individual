@@ -167,7 +167,7 @@ const store = new Vuex.Store({
 
 // Route
 const routes = [
-  {path: "", component: Home},
+  {path: "/index.html", component: Home},
   {path: "/cart", component: Cart},
 ]
 
