@@ -2,7 +2,7 @@ const lessons = [
     {
         "subject": "Math",
         "location": "London",
-        "price": "£60",
+        "price": 60,
         "space": 5,
         "image": "",
         "item": 0
@@ -10,7 +10,7 @@ const lessons = [
     {
         "subject": "English",
         "location": "London",
-        "price": "£50",
+        "price": 50,
         "space": 5,
         "image": "",
         "item": 0
@@ -18,7 +18,7 @@ const lessons = [
     {
         "subject": "Physics",
         "location": "London",
-        "price": "£90",
+        "price": 90,
         "space": 5,
         "image": "",
         "item": 0
@@ -26,7 +26,7 @@ const lessons = [
     {
         "subject": "Sociology",
         "location": "London",
-        "price": "£70",
+        "price": 70,
         "space": 5,
         "image": "",
         "item": 0
@@ -34,7 +34,7 @@ const lessons = [
     {
         "subject": "Art",
         "location": "London",
-        "price": "£100",
+        "price": 100,
         "space": 5,
         "image": "",
         "item": 0
@@ -42,7 +42,7 @@ const lessons = [
     {
         "subject": "Chemistry",
         "location": "London",
-        "price": "£60",
+        "price": 60,
         "space": 5,
         "image": "",
         "item": 0
@@ -50,7 +50,7 @@ const lessons = [
     {
         "subject": "Psycology",
         "location": "London",
-        "price": "£110",
+        "price": 110,
         "space": 5,
         "image": "",
         "item": 0
@@ -58,7 +58,7 @@ const lessons = [
     {
         "subject": "Physiology",
         "location": "London",
-        "price": "£50",
+        "price": 50,
         "space": 5,
         "image": "",
         "item": 0
@@ -66,7 +66,7 @@ const lessons = [
     {
         "subject": "Biology",
         "location": "London",
-        "price": "£30",
+        "price": 30,
         "space": 5,
         "image": "",
         "item": 0
@@ -74,7 +74,7 @@ const lessons = [
     {
         "subject": "Bioinformatics",
         "location": "London",
-        "price": "£100",
+        "price": 100,
         "space": 5,
         "image": "",
         "item": 0
