@@ -22,12 +22,12 @@
           <h3>Course List</h3>
           <div class="select-container">
             <select v-model="sortBy" @change="onSortChange(sortBy)" name="sort">
-              <option value="" selected disabled>Please select</option>Î
+              <option value="" selected disabled>Select Order</option>
               <option value="ascending">Ascending</option>
               <option value="descending">Descending</option>
             </select>
             <select v-model="sortBy2" @change="onSortChange(sortBy2)" name="sort">
-              <option value="" selected disabled>Please select</option>
+              <option value="" selected disabled>Sort By</option>
               <option value="subject">Subject</option>
               <option value="location">Location</option>
               <option value="price">Price</option>
@@ -46,7 +46,6 @@
                   <i class="material-icons-outlined">
                     menu_book
                   </i>
-                  <!-- <img :src="item.image" :alt="item.subject"> -->
                   </div>
                   <button class="course__btn" @click="addToCart(lesson)" :disabled="lesson.space < 1">Add to cart</button>
                 </div>
@@ -70,7 +69,6 @@
                   <i class="material-icons-outlined">
                     menu_book
                   </i>
-                  <!-- <img :src="item.image" :alt="item.subject"> -->
                   </div>
                   <button class="course__btn" @click="removeItemInCart(item)">Remove</button>
               </div>
@@ -90,7 +88,7 @@
       </section>
     </script>
 
-    <script type="module" src="main.js"></script>
-    <script type="module" src="lessons.js"></script>
+    <script type="module" src="./main.js"></script>
+    <script type="module" src="./lessons.js"></script>
   </body>
 </html>
