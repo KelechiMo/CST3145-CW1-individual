@@ -81,12 +81,12 @@
               <label>Name:</label>
               <input type="text" v-model="name">
               <label>Phone:</label>
-              <input type="text" v-model="phone">
+              <input type="number" v-model="phone">
               <button class="checkout__btn" :disabled="isNameValid && isPhoneValid ? false : true" @click="checkout()">
                   Checkout
               </button>
           </div>
-          <router-link to="/"><i class="material-icons-outlined">arrow_back</i></router-link>
+          <router-link to="/index.html"><i class="material-icons-outlined">arrow_back</i></router-link>
       </section>
     </script>
 

@@ -121,7 +121,7 @@ const Cart = {
       this.phone = 0
       this.resetCart()
       this.$toasted.success("Checkout successful.")
-      this.$router.push("/")
+      this.$router.push("/index.html")
     },
   },
 }

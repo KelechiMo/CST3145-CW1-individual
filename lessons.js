@@ -43,7 +43,7 @@ const lessons = [
         "subject": "Chemistry",
         "location": "London",
         "price": 60,
-        "space": 5,
+        "space": 6,
         "image": "",
         "item": 0
     },
@@ -51,7 +51,7 @@ const lessons = [
         "subject": "Psycology",
         "location": "London",
         "price": 110,
-        "space": 5,
+        "space": 7,
         "image": "",
         "item": 0
     },
@@ -59,7 +59,7 @@ const lessons = [
         "subject": "Physiology",
         "location": "London",
         "price": 50,
-        "space": 5,
+        "space": 8,
         "image": "",
         "item": 0
     },
@@ -67,7 +67,7 @@ const lessons = [
         "subject": "Biology",
         "location": "London",
         "price": 30,
-        "space": 5,
+        "space": 9,
         "image": "",
         "item": 0
     },
@@ -75,7 +75,7 @@ const lessons = [
         "subject": "Bioinformatics",
         "location": "London",
         "price": 100,
-        "space": 5,
+        "space": 10,
         "image": "",
         "item": 0
     }
