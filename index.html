@@ -6,7 +6,7 @@
     <title>Home</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
     <script src="https://unpkg.com/vue"></script>
     <script src="https://unpkg.com/vuex"></script>
     <script src="https://unpkg.com/vue-router"></script>
@@ -20,13 +20,27 @@
     <script type="text/x-template" id="home">
       <section>
           <h3>Course List</h3>
+          <div class="select-container">
+            <select v-model="sortBy" @change="onSortChange(sortBy)" name="sort">
+              <option value="" selected disabled>Please select</option>Î
+              <option value="ascending">Ascending</option>
+              <option value="descending">Descending</option>
+            </select>
+            <select v-model="sortBy2" @change="onSortChange(sortBy2)" name="sort">
+              <option value="" selected disabled>Please select</option>
+              <option value="subject">Subject</option>
+              <option value="location">Location</option>
+              <option value="price">Price</option>
+              <option value="space">space</option>
+            </select>
+          </div>
           <div class="courses">
               <div v-for="(lesson, index) in lessons" :key="'lesson' + index" class="course">
                   <div class="course__details">
                   <div class="detail">
                       <span>Subject: {{ lesson.subject }}</span>
                       <span>location: {{ lesson.location }}</span>
-                      <span>Price: {{ lesson.price }}</span>
+                      <span>Price: {{ '£' + lesson.price }}</span>
                       <span>Space: {{ lesson.space }}</span>
                   </div>
                   <i class="material-icons-outlined">
@@ -50,7 +64,7 @@
                   <div class="detail">
                       <span>Subject: {{ item.subject }}</span>
                       <span>location: {{ item.location }}</span>
-                      <span>Price: {{ item.price }}</span>
+                      <span>Price: {{ '£' + item.price }}</span>
                       <span>{{ item.item > 1 ? 'Items' : 'Item'  }}: {{ item.item }}</span>
                   </div>
                   <i class="material-icons-outlined">
@@ -76,7 +90,7 @@
       </section>
     </script>
 
-    <script type="module" src="./main.js"></script>
-    <script type="module" src="./lessons.js"></script>
+    <script type="module" src="main.js"></script>
+    <script type="module" src="lessons.js"></script>
   </body>
 </html>
